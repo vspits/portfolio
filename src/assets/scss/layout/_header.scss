@@ -54,10 +54,15 @@
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
-			.icon {
-				&:before {
-					font-size: 2rem;
-				}
+			// .icon {
+			// 	&:before {
+			// 		font-size: 2rem;
+			// 	}
+			// }
+
+			.img-flower {
+				height: 80%;
+				margin: 10% auto;
 			}
 		}
 
@@ -84,10 +89,14 @@
 				}
 			}
 
+			h1 {
+				font-size: 3rem;
+			}
+
 			p {
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
-				font-size: 0.8rem;
+				font-size: 1.25rem;
 				line-height: 2;
 			}
 		}
@@ -201,10 +210,15 @@
 				height: 4.75rem;
 				line-height: 4.75rem;
 
-				.icon {
-					&:before {
-						font-size: 1.75rem;
-					}
+			// 	.icon {
+			// 		&:before {
+			// 			font-size: 1.75rem;
+			// 		}
+			// 	}
+
+				.img-flower {
+					height: 80%;
+					margin: 10% auto;
 				}
 			}
 
@@ -218,6 +232,7 @@
 				}
 			}
 		}
+
 
 		@include breakpoint(xsmall) {
 			padding: 1.5rem 0;
