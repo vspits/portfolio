@@ -42,7 +42,7 @@ class Main extends React.Component {
             <p style={{fontSize: '14px'}}>React.js | Node.js | PostgreSQL | Bootstrap | Redux | HTML5 | CSS3 | Axios | Express | Bcryptjs | Stripe</p>
             A personally developed eCommerce web application where users can view categories, products, and interact with a shopping cart to purchase products. Media queries are used to optimize the mobile experience for a user. Authentication is included utilizing bcrypt for information security.
           </p>
-          <p>Live site:&emsp;<i><a href='https://gardenspace.xyz/#/shop/category' target="_blank" rel="noopener noreferrer">gardenspace.xyz</a></i><br/>GitHub Repo:&emsp;<i><a href='https://github.com/vspits/personal-project' target='_blank' rel="noopener noreferrer">https://github.com/vspits/personal-project</a></i></p>
+          <p style={{fontSize: '16px'}}>Live site:&emsp;<i><a href='https://gardenspace.xyz/#/shop/category' target="_blank" rel="noopener noreferrer">gardenspace.xyz</a></i><br/>GitHub Repo:&emsp;<i><a href='https://github.com/vspits/personal-project' target='_blank' rel="noopener noreferrer">https://github.com/vspits/personal-project</a></i></p>
           {close}
         </article>
 
