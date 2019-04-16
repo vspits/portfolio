@@ -4,9 +4,7 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            {/* <span className="icon fa-diamond"></span> */}
             <img src={require('./../images/floweroflifewhite.png')} className='img-flower'/> 
-            {/* <span className="icon fa-centos"></span> */}
         </div>
         <div className="content">
             <div className="inner">
